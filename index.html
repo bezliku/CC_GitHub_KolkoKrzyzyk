@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Page title</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+  </head>
+  <body>
+
+    <form id="formularz">
+    <h1>Podaj imiona graczy: </h1>
+    <label for="gracz1">Imię pierwszego gracza: </label><input type="text" id="gracz1">
+    <br>
+    <label for="gracz2">Imię drugiego gracza: </label><input type="text" id="gracz2">
+    <br><br>
+    <input type="submit" value="Zacznij grę" id="submit">
+    </form> 
+
+    <h1 id="imie1">Imię pierwsze</h1>
+    <h1 id="imie2">Imię drugie</h1>
+    <div id="plansza">
+      <table>
+      <tr>
+        <td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td></td><td></td><td></td>
+      </tr>
+      </table>
+    </div>
+
+    <div id="wynik"></div>
+    <button id="again">Zagraj jescze raz</button>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
